@@ -7,7 +7,7 @@
     height: 40px;
     margin: 10px;
     color: teal;
-    border-color: teal;
+    border-color: solid teal;
     background-color: whitesmoke;
     border-radius: 50px;
     border-width: 2px;
@@ -17,7 +17,7 @@
     width: 40px;
     height: 40px;
     margin: 10px;
-    border-color: aquamarine;
+    border-color: solid aquamarine;
     background-color: aquamarine;
     border-radius: 80px;
     font-weight: bold;
@@ -28,8 +28,8 @@
     height: 40px;
     margin: 10px;
     color: skyblue;
-    border-color: black;
+    border-color: solid black;
     background-color: blue;
-    box-shadow: 4px 4px 4px black;
+    box-shadow: 4px 4px 4px solid black;
     font-size: larger;
 }
