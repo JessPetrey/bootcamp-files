@@ -1,7 +1,7 @@
-div #search {
-    border-radius: 30%;
-    color: aquamarine;
+#container {
+    width: 500px;
+    height: auto;
 }
-.plus {
-    color: aquamarine;
+.search button{
+    background-color: aqua;
 }
