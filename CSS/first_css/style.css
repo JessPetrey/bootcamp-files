@@ -1,4 +1,16 @@
 h1 {
-    color: rebeccapurple;
-    font-size: 50px;
+    text-align: left;
+    background-color: black;
+    font-weight: bold;
+}
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+h3 {
+    text-align: right;
+    background-color: lightskyblue;
+    color: darkblue;
 }
