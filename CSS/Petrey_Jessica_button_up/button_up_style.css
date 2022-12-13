@@ -1,7 +1,35 @@
 #container {
-    width: 500px;
-    height: auto;
+    margin: 40px;
+    padding: 40px;
 }
-.search button{
-    background-color: aqua;
+.button1 {
+    width: 160px;
+    height: 40px;
+    margin: 10px;
+    color: teal;
+    border-color: teal;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border-width: 2px;
+    font-size: large;
+}
+.button2 {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-radius: 80px;
+    font-weight: bold;
+    font-size: larger;
+}
+.button3 {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    color: skyblue;
+    border-color: black;
+    background-color: blue;
+    box-shadow: 4px 4px 4px black;
+    font-size: larger;
 }
