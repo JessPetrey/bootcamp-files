@@ -1,0 +1,32 @@
+#header {
+    width: 840px;
+    text-align: center;
+    font-family: monospace;
+    color: grey;
+}
+.topBox {
+    width: 800px;
+    height: 200px;
+    background-color: slategray;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.midBox {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(39, 112, 93);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.bottomBox {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(42, 106, 151);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
