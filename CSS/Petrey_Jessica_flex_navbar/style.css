@@ -1,7 +1,36 @@
 .nav {
+    height: 50px;
+    background-color: grey;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    color: white;
 }
 
-.navtitle {
-    font: large;
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: whitesmoke;
+}
+.active {
+    font-weight: bold;
+}
+.nav-links {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-title {
+    padding: 5px;
+    margin-right: 750px;
+}
+.btn {
+    background-color: lightseagreen;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    color: white;
 }
