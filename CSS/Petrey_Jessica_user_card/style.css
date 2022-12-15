@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px grey;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    background-color: whitesmoke;
+}
+.userCircle {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.blueBox {
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.bottomBox {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+.location {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.mapMarker {
+    height: 15px;
+    width: 10px;
+}
+.gear {
+    height: 15px;
+    width: 15px;
+}
+
+.editProfile {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.editProfile p {
+    text-decoration: underline;
+    color: blue;
+}
