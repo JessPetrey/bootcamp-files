@@ -4,36 +4,41 @@
 }
 
 .container {
-    width: 500px;
-    height: 300px;
-    margin: 0 auto;
-    box-shadow: 4px 4px 4px grey;
-    position: absolute;
-    top: 50px;
-    left: 450px;
-    background-color: whitesmoke;
-}
-.userCircle {
-    height: 65px;
-    width: 65px;
-    position: absolute;
-    top: 60px;
-    left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
 }
 
 .blueBox {
     height: 100px;
     background-color: cadetblue;
 }
+.userCircle {
+    height: 65px;
+    width: 65px;
+    margin: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px grey;
+    background-color: whitesmoke;
+}
 
 .bottomBox {
     height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 10px;
     margin: 10px;
     gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 .location {
     display: flex;

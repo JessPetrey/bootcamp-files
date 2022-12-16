@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="nav flex center">
+        <ul class="tabs flex center">
+            <li>
+                <h1>Profile</h1>
+            </li>
+            <li>Home</li>
+            <li class="myProfile">My Profile</li>
+            <li>Find Connections</li>
+        </ul>
+        <div class="signOut">
+            <button class="signOut">Sign Out</button>
+        </div>
+    </div>
+    <!-- main content below nav bar -->
+    <div class="main flex">
+        <!-- left column, user card and education -->
+        <div class="leftCol">
+            <div class="userCard margin">
+                <div class="cardHead">
+                    <img src="images/jane-m.jpg" alt="" class="userCircle round">
+                </div>
+                <div class="cardBody flex column">
+                    <div class="name">
+                        <h2>Jane Doe</h2>
+                    </div>
+                    <div class="location leftFlex">
+                        <img src="icons/map-marker.png" alt="" class="mapMarker">
+                        <h4>Seattle</h4>
+                    </div>
+                    <div class="bio">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                    </div>
+                    <div class="editProfile leftFlex">
+                        <img src="icons/gear.png" alt="" class="gear">
+                        <p>edit profile</p>
+                    </div>
+                </div>
+            </div>
+            <!-- education card -->
+            <div class="education eduCard userCard margin">
+                <div class="head leftFlex"><h3>Education</h3></div>
+                <div class="body">
+                    <p id="edu" class="margin">Coding Dojo - Full Stack Bootcamp<br>
+                    Dec 2022 - March 2023<br>
+                    Triple blackbelt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <!-- right column, requests and connections  -->
+        <div class="rightCol">
+            <!-- requests card -->
+            <div class="requests smallBox margin">
+                <div class="head">
+                    <h3>Connection Requests</h3>
+                </div>
+                <!-- body of requests -->
+                <div class="body"> 
+                    <!-- todd -->
+                    <div class="body">
+                        <img src="images/todd-s.jpg" alt="Todd" class="img round">
+                        <h3>Todd S</h3>
+                    </div>
+                    <div>
+                        <img src="icons/accept-circle.png" alt="" class="yesno">
+                        <img src="icons/close-circle.png" alt="" class="yesno">
+                    </div>
+                </div>
+                <div class="body">
+                    <!-- phil -->
+                    <div class="body">
+                        <img src="images/phil-s.jpg" alt="Phil" class="img round">
+                        <h3>Phil S</h3>
+                    </div>
+                    <div>
+                        <img src="icons/accept-circle.png" alt="" class="yesno">
+                        <img src="icons/close-circle.png" alt="" class="yesno">
+                    </div>
+                </div>
+            </div>
+                <!-- connections card -->
+            <div class="connections smallBox margin">
+                <div class="head">
+                    <h3>Your Connections</h3>
+                </div>
+                <!-- body of connections -->
+                <div class="body">
+                    <div class="body">
+                        <img src="images/adrien-s.jpg" alt="" class="img round">
+                        <h3>Adrien S</h3>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="body">
+                        <img src="images/anne-s.jpg" alt="" class="img round">
+                        <h3>Anne S</h3>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="body">
+                        <img src="images/alayne-s.jpg" alt="" class="img round">
+                        <h3>Alayne S</h3>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="body">
+                        <img src="images/arry-s.jpg" alt="" class="img round">
+                        <h3>Arry S</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
