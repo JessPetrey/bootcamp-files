@@ -1,0 +1,92 @@
+/* css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* making it flexy */
+.flex {
+    display: flex;
+}
+.center {
+    align-items: center;
+}
+.justify {
+    justify-content: center;
+}
+.spaceAround {
+    justify-content: space-around;
+}
+/* column orientation */
+.column {
+    flex-direction: column;
+}
+
+/* margin and padding for large elements */
+.margin {
+    margin: 10px;
+}
+.padding {
+    padding: 10px;
+}
+
+
+/* header styling */
+.headerBox {
+    background-color: lightgrey;
+    width: 60%;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+}
+.login {
+    background-color: skyblue;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+/* body styling */
+.card {
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px grey;
+    padding: 10px 25px;
+}
+.description {
+    
+}
+/* styling for card content */
+.italic {
+    font-style: italic;
+}
+/* likes button */
+.likes {
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 5px 10px;
+}
+.smallCard {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+/* add definition button */
+.addDefinition {
+    background-color: mediumseagreen;
+    padding: 5px 30px;
+    font-size: medium;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+.bold {
+    font-weight: bolder;
+}
+
+
+
+
+/* for visibility, remove later */
+ {
+    border: 2px solid lightblue;
+}

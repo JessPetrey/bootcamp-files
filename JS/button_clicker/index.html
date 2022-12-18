@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- header container -->
+    <div class="container flex center justify">
+        <!-- Dojonary header box -->
+        <div class="headerBox padding">
+            <!-- header content here -->
+            <ul class="flex center spaceAround">
+                <li>
+                    <h1>Dojonary</h1>
+                </li>
+                <li>
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </li>
+                <li>
+                    <button onclick="loginStatus(this)" class="login">Login</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- body container -->
+    <div class="bodyContainer flex justify">
+        <!-- left column -->
+        <div class="leftCol column">
+            <!-- large card one -->
+            <div class="card flex margin">
+                <div class="word flex column center">
+                    <h1>ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <p>Plural: <span class="italic">ninjas</span></p>
+                    <button onclick="alert('Ninja was liked')" class="likes margin">13 likes</button>
+                </div>
+                <div class="definition flex center">
+                    <p class="padding">A practitioner skilled in the<br>
+                        <a href="http://">Japanese</a> art of <a href="http://">ninjutsu</a></p>
+                </div>
+            </div>
+            <!-- large card two -->
+            <div class="card flex margin padding">
+                <div class="word flex column center">
+                    <h1>ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <p>Plural: <span class="italic">ninjas</span></p>
+                    <button onclick="alert('Ninja was liked')" class="likes margin">37 likes</button>
+                </div>
+                <div class="definition flex center">
+                    <p class="padding">A <a href="http://">programmer</a> who breaks<br>
+                        down problems with <br>
+                        <a href="http://">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <!-- right column -->
+        <div class="rightCol column">
+            <!-- small card -->
+            <div class="card margin">
+                <p class="smallCard">Dojonary is<br>
+                    defined by <span class="bold">YOU</span></p>
+                <button onclick="removeButton(this)" class="addDefinition">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
