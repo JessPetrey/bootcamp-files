@@ -30,11 +30,10 @@
     padding: 10px;
 }
 
-
 /* header styling */
 .headerBox {
     background-color: lightgrey;
-    width: 60%;
+    width: 550px;
     margin-bottom: 20px;
 }
 ul {
@@ -53,9 +52,7 @@ ul {
     box-shadow: 4px 4px 4px grey;
     padding: 10px 25px;
 }
-.description {
-    
-}
+
 /* styling for card content */
 .italic {
     font-style: italic;
@@ -81,12 +78,4 @@ ul {
 }
 .bold {
     font-weight: bolder;
-}
-
-
-
-
-/* for visibility, remove later */
- {
-    border: 2px solid lightblue;
 }
