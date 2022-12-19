@@ -7,10 +7,14 @@ function pizzaOven(crustType, sauceType, cheeses, toppings) {
     return pizza;
 }
     
-var pizza1 = pizzaOven("deep dish", "traditional", ["mozzerella"], ["pepperoni", "sausage"]);
-console.log(pizza1);
+var pizza1 = pizzaOven("deep dish", "traditional", ["mozzerella"], ["pepperoni", "sausage"])
+console.log(pizza1)
 
-var pizza2 = pizzaOven("hand tossed", "marinara", ["mozzerella", "feta"], ["mushrooms", "olives", "onions"]);
+var pizza2 = pizzaOven("hand tossed", "marinara", ["mozzerella", "feta"], ["mushrooms", "olives", "onions"])
 console.log(pizza2)
 
-var jessFave = pizzaOven("deep dish", "San Marzano homemade", ["mozzerella", ""])
+var pizza3 = pizzaOven("thin", "white", ["mozzerella", "cotija"], ["mushrooms", "chicken", "broccoli"])
+console.log(pizza3)
+
+var jessFave = pizzaOven("deep dish", "San Marzano homemade", ["mozzerella"], ["pepperoni", "banana peppers", "parmesean"])
+console.log(jessFave)
