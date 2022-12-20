@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes assignment part 2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- adding Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- main container -->
+    <div class="center">
+
+
+        <!-- head of page -->
+        <div class="head flex">
+            <!-- "network" black bar -->
+            <div class="networkBar pad">
+                <h1>Network</h1>
+            </div>
+            <!-- "your feed" header -->
+            <div class="yourFeed pad">
+                <h1>Your Feed</h1>
+            </div>
+        </div>
+
+
+        <!-- body of page -->
+        <div class="bodyContent marg center">
+
+
+            <!-- user card on page left -->
+            <div class="leftColumn pad">
+                <div class="userCard flex pad marg">
+                    <img class="avatar" src="user-circle.png" alt="generic user avatar" srcset="user-circle.png">
+                    <a class="" href="http://www.freepik.com/free-photos-vectors/avatar">Add an avatar</a>
+                    <h2 class="">James Doe</h2>
+                </div>
+            </div>
+
+
+            <!-- "feed" cards on page right -->
+            <div class="rightColumn pad">
+
+
+                <!-- card 1 -->
+                <div class="feedCard marg">
+                    <!-- top section of card -->
+                    <div class="spaceBtwn flex marg pad">
+                        <h2>Neil M</h2>
+                        <div class="flex spaceBtwn">
+                            <p id="neil">0 like(s)</p>
+                            <button onclick="addOne(count1)" class="like">Like</button>
+                        </div>
+                    </div>
+                    <!-- lower section of card -->
+                    <div class="paragraph marg pad">
+                        <p>I just set up this new discord bot, let me know what you all think. <a
+                                href="https://discords.com/bots/">link</a>
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- card 2 -->
+                <div class="feedCard marg">
+                    <!-- top section of card -->
+                    <div class="userLikesBar spaceBtwn flex marg pad">
+                        <h2>Nichole K</h2>
+                        <div class="flex spaceBtwn">
+                            <p id="nichole">0 like(s)</p>
+                            <button onclick="addTwo(count2)" class="like">Like</button>
+                        </div>
+                    </div>
+                    <!-- lower section of card -->
+                    <div class="paragraph marg pad">
+                        <p>Just finished my <a href="https://www.amazon.com/King-Comics-Pearls-Before-Collection/dp/1449458289">next comic</a>, check it out.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- card 3 -->
+                <div class="feedCard marg">
+                    <!-- top section of card -->
+                    <div class="userLikesBar spaceBtwn flex marg pad">
+                        <h2>Jim R</h2>
+                        <div class="flex spaceBtwn">
+                            <p id="jim">0 like(s)</p>
+                            <button onclick="addThree(count3)" class="like">Like</button>
+                        </div>
+                    </div>
+                    <!-- lower section of card -->
+                    <div class="paragraph marg pad">
+                        <p>I can't stop listening to the <a href="https://open.spotify.com/artist/4ETSs924pXMzjIeD6E9b4u">new album</a>. Who else is liking it?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
