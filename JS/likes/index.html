@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- adding Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- main content -->
+    <div class="container flex">
+        <!-- user card with 'likes' button -->
+        <div class="card">
+            <!-- top section of card -->
+            <div class="userLikesBar flex space">
+                <h3>Some User</h3>
+                <div class="userLikesBar flex">
+                    <p id="likeCount">0 like(s)</p>
+                    <button onclick="addOne(count)" class="like">Like</button>
+                </div>
+            </div>
+            <!-- lower section of card -->
+            <div class="paragraph space">
+                <p>Have a holly jolly Christmas<br>
+                    It's the best time of the year<br>
+                    Now I don't know if there'll be snow<br>
+                    But have a cup of cheer
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
