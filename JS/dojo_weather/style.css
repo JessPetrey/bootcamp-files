@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* page layout */
+
+.flex {
+    display: flex;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+}
+.boxWidth {
+    width: 800px;
+}
+
+
+/* head of page */
+.head {
+    margin-bottom: 20px;
+    background-color: steelblue;
+}
+.navBar {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+}
+.city {
+    padding: 20px;
+}
+
+
+/* body of page */
+.subheader {
+    font-size: large;
+    padding: 20px 0px;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+.subTitle {
+    margin-right: 230px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.day {
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    width: 150px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+.high, .low {
+    margin : 10px 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.high {
+    color: crimson;
+}
+.low {
+    color: dodgerblue;
+}
+
+/* cookie box */
+.cookieBox {
+    justify-content: space-around;
+    background-color: lightgrey;
+    border: 2px solid  black;
+    margin: 20px;
+    height: 120px;
+    position: fixed;
+    bottom: 0px;
+}
+.acceptButton {
+    width: 80px;
+    height: 30px;
+    background-color: dodgerblue;
+    border: 2px solid  black;
+    box-shadow: 1px 1px black;
+}
+.acceptButton:hover {
+    box-shadow: 2px 2px black;
+
+}

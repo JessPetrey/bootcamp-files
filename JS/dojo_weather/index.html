@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- head of page -->
+    <div class="head flex center">
+        <!-- navigation bar -->
+        <div class="navBar flex center boxWidth">
+            <div class="title">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="locations">
+                <span class="city" onclick="alert('Loading weather report...')">Burbank</span>
+                <span class="city" onclick="alert('Loading weather report...')">Chicago</span>
+                <span class="city" onclick="alert('Loading weather report...')">Dallas</span>
+            </div>
+        </div>
+    </div>
+    <!-- body of page -->
+    <div class="mainContent flex center">
+        <!-- subheader bar -->
+        <div class="subheader flex center boxWidth">
+            <div class="subTitle">
+                <h1>San Jose</h1>
+            </div>
+            <span>Show temperature in
+                <span>
+                    <select onchange="convertTemp(this)" name="tempSelect" id="tempSelect">
+                        <option value="°C">°C</option>
+                        <option value="°F">°F</option>
+                    </select>
+                </span>
+            </span>
+        </div>
+    </div>
+
+    <!-- weather boxes -->
+    <div class="weatherBoxes flex center">
+        <div class="predictions flex">
+            <div class="day flex center">
+                <h2>Today</h2>
+                <img class="image" src="assets/some_rain.png" alt="rain cloud">
+                <p>some rain</p>
+                <span class="degrees flex">
+                    <p id="temp" class="high">24°</p>
+                    <p id="temp" class="low">18°</p>
+                </span>
+            </div>
+            <div class="day flex center">
+                <h2>Tomorrow</h2>
+                <img class="image" src="assets/some_sun.png" alt="sunny">
+                <p>some sun</p>
+                <span class="degrees flex">
+                    <p id="temp" class="high">27°</p>
+                    <p id="temp" class="low">19°</p>
+                </span>
+            </div>
+            <div class="day flex center">
+                <h2>Friday</h2>
+                <img class="image" src="assets/some_clouds.png" alt="cloudy">
+                <p>some clouds</p>
+                <span class="degrees flex">
+                    <p id="temp" class="high">21°</p>
+                    <p id="temp" class="low">16°</p>
+                </span>
+            </div>
+            <div class="day flex center">
+                <h2>Saturday</h2>
+                <img class="image" src="assets/some_sun.png" alt="sunny">
+                <p>some sun</p>
+                <span class="degrees flex">
+                    <p id="temp" class="high">26°</p>
+                    <p id="temp" class="low">21°</p>
+                </span>
+            </div>
+        </div>
+
+    </div>
+    <!-- cookie policy notification -->
+    <div id="dismiss" class="cookieContainer flex center">
+        <div class="cookieBox flex center boxWidth">
+            <div>
+                <img src="assets/cookie.png" alt="cookie icon">
+            </div>
+            <div>
+                <p><h3>Stop! Cookie time</h3>
+                    We use cookies (sadly not the edible ones) to personalize<br>
+                    content and ads, to provide social media features and to<br>
+                    analyse our traffic. <a href="http://#"> Read more...</a></p>
+            </div>
+            <button class="acceptButton" onclick="dismissCookies(this)">I Accept</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
