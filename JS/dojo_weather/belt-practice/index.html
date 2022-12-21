@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header -->
+    <div id="head">
+        <div id="titleBar" class="flex bg-color align-center justify-around pad text-white">
+            <h1>DojoWeather</h1>
+            <h3>Burbank</h3>
+            <h3>Chicago</h3>
+            <h3>Dallas</h3>
+        </div>
+        </div>
+        <div id="subheader" class="border flex align-center justify-around pad">
+            <h2>San Jose</h2>
+            <span>Show temperature in <select id="tempSelect">
+                <option value="celsius">°C</option>
+                <option value="fahrenheit">°F</option>
+            </select></span>
+        </div>
+    </div>
+
+    <!-- main content -->
+    <div id="body" class="border">
+        <div id="panelBox" class="flex align-center border">
+            <div class="panel flex flex-column">
+                <h3>Today</h3>
+                <img class="icon" src="assets/some_rain.png" alt="rain cloud">
+                <p>some rain</p>
+                <div class="temps">
+                    <p>24°</p>
+                    <p>18°</p>
+                </div>
+            </div>
+            <div class="panel align-center">
+                <h3>Tomorrow</h3>
+                <img class="icon" src="assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="temps">
+                    <p>24°</p>
+                    <p>18°</p>
+                </div>
+            </div>
+            <div class="panel align-center">
+                <h3>Friday</h3>
+                <img class="icon" src="assets/some_clouds.png" alt="cloudy">
+                <p>some clouds</p>
+                <div class="temps">
+                    <p>24°</p>
+                    <p>18°</p>
+                </div>
+            </div>
+            <div class="panel align-center">
+                <h3>Saturday</h3>
+                <img class="icon" src="assets/some_sun.png" alt="sun">
+                <p>some sun</p>
+                <div class="temps">
+                    <p>24°</p>
+                    <p>18°</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
